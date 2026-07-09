@@ -1,0 +1,10 @@
+node_modules/
+.next/
+out/
+.env
+.env.local
+*.log
+
+# Foydalanuvchi natijalari va profillari (maxfiy)
+data/results/
+data/users/

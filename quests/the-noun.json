@@ -1,0 +1,665 @@
+{
+  "total_questions": 50,
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "easy",
+      "category": "theory",
+      "type": "true_false",
+      "question": "Otlar gapda ko'pincha ega (subject) yoki to'ldiruvchi (object) vazifasida keladi.",
+      "answer": "True",
+      "explanation": "Ot tushunchasi mavzusida ta'kidlanishicha, otlar gapning asosiy obyekti bo'lib, ko'pincha ega yoki to'ldiruvchi vazifasida keladi."
+    },
+    {
+      "number": 2,
+      "difficulty": "easy",
+      "category": "theory",
+      "type": "true_false",
+      "question": "Common nouns (turdosh otlar) har doim bosh harf bilan yozilishi qat'iy talab qilinadi.",
+      "answer": "False",
+      "explanation": "Fayldagi qoidaga ko'ra, Proper nouns (xos otlar) har doim bosh harf bilan yoziladi, Common nouns esa kichik harfda yozilishi mumkin."
+    },
+    {
+      "number": 3,
+      "difficulty": "medium",
+      "category": "theory",
+      "type": "true_false",
+      "question": "Abstract (mavhum) otlar doim ko'plik shaklda ishlatiladi va o'zidan oldin 'a/an' artiklini qabul qiladi.",
+      "answer": "False",
+      "explanation": "Abstract otlar ko'pincha sanalmaydigan (Uncountable) bo'ladi va o'zidan oldin 'a/an' artiklini qabul qilmaydi, ularni ko'plikda ishlatish (knowledges kabi) xatodir."
+    },
+    {
+      "number": 4,
+      "difficulty": "medium",
+      "category": "theory",
+      "type": "true_false",
+      "question": "Uncountable (sanalmaydigan) otlar doimo birlikdagi fe'l (is, has, does, was) talab qiladi.",
+      "answer": "True",
+      "explanation": "Sanalmaydigan otlar yaxlit tushuncha yoki modda bo'lgani uchun doimo birlikdagi fe'lni talab qiladi."
+    },
+    {
+      "number": 5,
+      "difficulty": "hard",
+      "category": "theory",
+      "type": "true_false",
+      "question": "Ingliz tilida 'news' so'zi sanaladigan (Countable) otlar qatoriga kiradi, chunki o'zbek tilida uni sanash mumkin.",
+      "answer": "False",
+      "explanation": "IELTS 'Golden List' slaydiga ko'ra, 'news' o'zbek tilida sanalsa-da, ingliz tilida doim sanalmaydigan (Uncountable) ot hisoblanadi."
+    },
+    {
+      "number": 6,
+      "difficulty": "easy",
+      "category": "examples",
+      "type": "true_false",
+      "question": "Undosh + y harfiga tugaydigan so'zlarga ko'plik qo'shish qoidasiga binoan, 'boy' so'zining ko'plik shakli 'boies' bo'ladi.",
+      "answer": "False",
+      "explanation": "Qoidaga ko'ra unli + y holatida (boy) y tushib qolmaydi va faqat '-s' qo'shilib 'boys' shaklida yoziladi (bu istisno holatdir)."
+    },
+    {
+      "number": 7,
+      "difficulty": "hard",
+      "category": "theory",
+      "type": "true_false",
+      "question": "'Police' so'zi UK aksentida ko'plik, US aksentida esa birlik fe'l talab qiladi.",
+      "answer": "False",
+      "explanation": "Collective Nouns slaydiga ko'ra, 'Police' so'zi ikkala aksentda ham doim ko'plikda (The police are coming) keladi."
+    },
+    {
+      "number": 8,
+      "difficulty": "medium",
+      "category": "theory",
+      "type": "true_false",
+      "question": "Compound (qo'shma) otlar faqatgina ikkita so'zni birga (qo'shib) yozish orqali yasaladi.",
+      "answer": "False",
+      "explanation": "Compound otlar birga (toothpaste), chiziqcha bilan (mother-in-law) yoki ajratib (ice cream) yozilishi mumkin."
+    },
+    {
+      "number": 9,
+      "difficulty": "hard",
+      "category": "theory",
+      "type": "true_false",
+      "question": "Noun + Noun birikmasida (Attributive Nouns) birinchi ot o'zining otlik xususiyatini yo'qotib sifatga aylanadi va odatda ko'plikda kelmaydi.",
+      "answer": "True",
+      "explanation": "Qoidaga ko'ra, attributive holatdagi birinchi ot sifatga aylanadi va ko'plik qo'shimchasini olmaydi ('shoes shop' yozish xato)."
+    },
+    {
+      "number": 10,
+      "difficulty": "medium",
+      "category": "theory",
+      "type": "true_false",
+      "question": "Vaqt, pul va masofani bildiruvchi otlar (masalan, 'Ten years') ko'plik ma'nosini bersa-da, doimo birlikdagi fe'l bilan ishlatiladi.",
+      "answer": "True",
+      "explanation": "Time/Money/Distance bitta yaxlit tushuncha hisoblangani uchun birlik fe'l oladi (Ten years is a long time to wait)."
+    },
+    {
+      "number": 11,
+      "difficulty": "medium",
+      "category": "examples",
+      "type": "true_false",
+      "question": "'The microscope revealed cellular structures in the sand' gapida 'microscope' so'zi Abstract (mavhum) ot hisoblanadi.",
+      "answer": "False",
+      "explanation": "'Microscope' ko'rish va ushlash mumkin bo'lgan moddiy narsa bo'lgani uchun mavhum emas, balki Concrete (aniq) ot hisoblanadi."
+    },
+    {
+      "number": 12,
+      "difficulty": "easy",
+      "category": "examples",
+      "type": "true_false",
+      "question": "'The news is good!' gapida 'news' so'ziga nisbatan birlik fe'l ('is') ishlatilishi grammatika qoidasiga to'la muvofiq keladi.",
+      "answer": "True",
+      "explanation": "'News' sanalmaydigan (Uncountable) ot bo'lgani uchun unga doim birlikdagi fe'l qo'shilishi to'g'ri."
+    },
+    {
+      "number": 13,
+      "difficulty": "hard",
+      "category": "examples",
+      "type": "true_false",
+      "question": "'The results of the recent study is...' gap qurilishi to'g'ri yozilgan.",
+      "answer": "False",
+      "explanation": "Fe'l eganing oxirgi so'ziga (study) emas, asosiy otga (results - ko'plik) moslashishi kerak. Shuning uchun fe'l 'are' bo'lishi kerak."
+    },
+    {
+      "number": 14,
+      "difficulty": "easy",
+      "category": "theory",
+      "type": "true_false",
+      "question": "Otlar gapda faqat shaxslar va narsalarni nomlash uchun ishlatiladi, g'oyalarni emas.",
+      "answer": "False",
+      "explanation": "Ot tushunchasi slaydida otlar shaxs, narsa, joy, hayvon yoki mavhum g'oyalarni nomlash uchun ishlatilishi aytib o'tilgan."
+    },
+    {
+      "number": 15,
+      "difficulty": "medium",
+      "category": "theory",
+      "type": "true_false",
+      "question": "IELTS 'Golden List'idagi sanalmaydigan otlarni sanash zarur bo'lib qolsa, ularga 'a/an' yoki '-s' qo'shib sanash mumkin emas.",
+      "answer": "True",
+      "explanation": "Ularni mantiqan sanash uchun maxsus o'lchov so'zlari ishlatiladi (a piece of advice), to'g'ridan-to'g'ri artikl yoki '-s' qo'shib bo'lmaydi."
+    },
+    {
+      "number": 16,
+      "difficulty": "easy",
+      "category": "theory",
+      "type": "multiple_choice",
+      "question": "Qaysi turdagi otlar aniq bir shaxs, joy, tashkilot, kun yoki oylarning maxsus nomidir va har doim bosh harf bilan yoziladi?",
+      "options": {
+        "A": "Common nouns",
+        "B": "Proper nouns",
+        "C": "Abstract nouns",
+        "D": "Uncountable nouns"
+      },
+      "answer": "B",
+      "explanation": "Fayldagi tushuntirishga ko'ra, Proper nouns maxsus nomlar bo'lib, har doim bosh harf bilan yoziladi."
+    },
+    {
+      "number": 17,
+      "difficulty": "medium",
+      "category": "examples",
+      "type": "multiple_choice",
+      "question": "Quyidagi gaplarning qaysi birida Proper noun imlosi (bosh harfda yozilishi) fayldagi namunaga asosan to'liq to'g'ri berilgan?",
+      "options": {
+        "A": "Oxford university published a study on monday.",
+        "B": "oxford University published a study on Monday.",
+        "C": "Oxford University published a new study in The Lancet on Monday.",
+        "D": "Oxford University published a new study in the lancet on monday."
+      },
+      "answer": "C",
+      "explanation": "Fayldagi misolda universitet nomi (Oxford University), jurnal nomi (The Lancet) va hafta kuni (Monday) barchasi bosh harfda yozilgan."
+    },
+    {
+      "number": 18,
+      "difficulty": "easy",
+      "category": "theory",
+      "type": "multiple_choice",
+      "question": "Beshta sezgi a'zomiz orqali ko'rish, ushlash, eshitish mumkin bo'lgan moddiy narsalar qanday otlar turiga kiradi?",
+      "options": {
+        "A": "Concrete (Aniq) otlar",
+        "B": "Abstract (Mavhum) otlar",
+        "C": "Proper (Xos) otlar",
+        "D": "Uncountable (Sanalmaydigan) otlar"
+      },
+      "answer": "A",
+      "explanation": "Concrete (Aniq) otlarning ta'rifi aynan sezgi a'zolari orqali idrok etiladigan moddiy narsalar ekanligi bilan belgilanadi."
+    },
+    {
+      "number": 19,
+      "difficulty": "medium",
+      "category": "examples",
+      "type": "multiple_choice",
+      "question": "'The pursuit of knowledge promotes justice and liberty.' gapidagi 'knowledge', 'justice', 'liberty' so'zlari qaysi ot turiga misol bo'ladi?",
+      "options": {
+        "A": "Concrete nouns",
+        "B": "Proper nouns",
+        "C": "Abstract nouns",
+        "D": "Simple nouns"
+      },
+      "answer": "C",
+      "explanation": "Faylda bu so'zlar g'oya va tuyg'ularni anglatgani uchun Abstract (mavhum) otlarga akademik misol sifatida keltirilgan."
+    },
+    {
+      "number": 20,
+      "difficulty": "medium",
+      "category": "theory",
+      "type": "multiple_choice",
+      "question": "Sanaladigan (Countable) otlarning asosiy grammatik belgilari nimalardan iborat?",
+      "options": {
+        "A": "Ular faqat 'much' va 'little' bilan keladi",
+        "B": "'a/an' artiklini olmaydi va doim birlikda keladi",
+        "C": "Birlik va ko'plik shakllari mavjud, 'a/an' ishlatiladi, 'many/few' bilan keladi",
+        "D": "Hech qachon '-s/es' qo'shilmaydi"
+      },
+      "answer": "C",
+      "explanation": "Countable otlar sanalishi mumkin, 'a/an' hamda '-s/es' oladi va 'many/few' bilan kelishi faylda ta'kidlangan."
+    },
+    {
+      "number": 21,
+      "difficulty": "medium",
+      "category": "theory",
+      "type": "multiple_choice",
+      "question": "Sanalmaydigan (Uncountable) otlar uchun quyidagi qoidalardan qaysi biri to'g'ri?",
+      "options": {
+        "A": "Ularga doim 'a/an' artikli qo'shiladi",
+        "B": "Ular doim ko'plik qo'shimchasini oladi",
+        "C": "Ular 'many' va 'few' so'zlari bilan ishlatiladi",
+        "D": "Ular 'a/an' artiklini qabul qilmaydi, ularga '-s/es' qo'shilmaydi va 'much/little' bilan keladi"
+      },
+      "answer": "D",
+      "explanation": "Uncountable otlar yaxlit modda/tushuncha bo'lgani uchun 'a/an', '-s' qabul qilmaydi va 'much/little' bilan ishlatiladi."
+    },
+    {
+      "number": 22,
+      "difficulty": "medium",
+      "category": "examples",
+      "type": "multiple_choice",
+      "question": "Faylda keltirilgan misolga ko'ra, qaysi so'z sanaladigan (Countable) ot hisoblanadi va 'IELTS Golden List' ga kirmaydi?",
+      "options": {
+        "A": "Equipment",
+        "B": "Article",
+        "C": "Information",
+        "D": "Progress"
+      },
+      "answer": "B",
+      "explanation": "Fayldagi misolda 'The scientists (Countable) published three articles' deb keltirilgan. Article sanaladigan otdir."
+    },
+    {
+      "number": 23,
+      "difficulty": "hard",
+      "category": "examples",
+      "type": "multiple_choice",
+      "question": "IELTS 'Golden List' idagi 'advice' so'zini mantiqan sanash (bitta maslahat) zarur bo'lib qolganda qaysi o'lchov so'zidan foydalaniladi?",
+      "options": {
+        "A": "An advice",
+        "B": "A piece of advice",
+        "C": "An item of advice",
+        "D": "A lot of advices"
+      },
+      "answer": "B",
+      "explanation": "Fayldagi IELTS Golden List slaydida 'advice' so'zini sanash uchun 'a piece of advice' o'lchov so'zi ishlatilishi aniq ko'rsatilgan."
+    },
+    {
+      "number": 24,
+      "difficulty": "hard",
+      "category": "theory",
+      "type": "multiple_choice",
+      "question": "IELTS Writing va Speaking qismlarida qaysi so'zlardan foydalanish (eng ko'p qilinadigan xatolar) grammatika ballini darhol tushiradi?",
+      "options": {
+        "A": "researches, advices, an information",
+        "B": "a lot of research, pieces of advice",
+        "C": "some information, much advice",
+        "D": "good news, hard work"
+      },
+      "answer": "A",
+      "explanation": "Bu so'zlar sanalmaydigan otlar bo'lishiga qaramay, ularga '-s' yoki 'an' qo'shish xato ekanligi uqtirilgan."
+    },
+    {
+      "number": 25,
+      "difficulty": "easy",
+      "category": "theory",
+      "type": "multiple_choice",
+      "question": "Oxiri '-ch, -x, -s, -sh, -z' harflari bilan tugaydigan otlarga ko'plikda qaysi qo'shimcha qo'shiladi?",
+      "options": {
+        "A": "Faqat -s",
+        "B": "-ies",
+        "C": "-es",
+        "D": "-ves"
+      },
+      "answer": "C",
+      "explanation": "Plural Forms qoidalariga ko'ra, bunday tugallanishlarga ega so'zlar '-es' qabul qiladi (Masalan: box -> boxes, watch -> watches)."
+    },
+    {
+      "number": 26,
+      "difficulty": "medium",
+      "category": "examples",
+      "type": "multiple_choice",
+      "question": "Qaysi variantda unli va 'y' harfiga tugaydigan so'zning ko'plik shakli (istisno holat) to'g'ri ko'rsatilgan?",
+      "options": {
+        "A": "boies",
+        "B": "boys",
+        "C": "boyes",
+        "D": "boyys"
+      },
+      "answer": "B",
+      "explanation": "Odatda undosh + y bo'lsa '-ies' bo'ladi, lekin unli + y bo'lsa (boy kabi) faqat '-s' qo'shiladi (boys)."
+    },
+    {
+      "number": 27,
+      "difficulty": "medium",
+      "category": "theory",
+      "type": "multiple_choice",
+      "question": "'Life' va 'Leaf' so'zlari ko'plikka aylanganda imloda qanday o'zgarish yuz beradi?",
+      "options": {
+        "A": "'-f' va '-fe' tushib qolib, o'rniga '-ves' qo'shiladi (lives, leaves)",
+        "B": "Shunchaki '-s' qo'shiladi (lifes, leafs)",
+        "C": "O'zgarmasdan qoladi",
+        "D": "'-ies' qo'shiladi"
+      },
+      "answer": "A",
+      "explanation": "Plural forms slaydida -f, -fe bilan tugaydigan so'zlarga '-ves' qo'shilishi (leaf -> leaves, life -> lives) tushuntirilgan."
+    },
+    {
+      "number": 28,
+      "difficulty": "hard",
+      "category": "examples",
+      "type": "multiple_choice",
+      "question": "Oxiri '-f' harfi bilan tugasa-da, qoidalarga bo'ysunmaydigan istisno so'z bo'lmish 'Roof' ning ko'plik shakli qanday yoziladi?",
+      "options": {
+        "A": "Rooves",
+        "B": "Roofes",
+        "C": "Roofs",
+        "D": "Roofies"
+      },
+      "answer": "C",
+      "explanation": "Plural Forms slaydida 'roof -> roofs' alohida istisno sifatida ta'kidlab o'tilgan."
+    },
+    {
+      "number": 29,
+      "difficulty": "hard",
+      "category": "theory",
+      "type": "multiple_choice",
+      "question": "Qoidaga bo'ysunmaydigan, butunlay shaklini o'zgartiradigan Irregular (noto'g'ri) otlarning to'g'ri ko'plik shakli ko'rsatilgan qatorni toping.",
+      "options": {
+        "A": "mans, womans, tooths",
+        "B": "men, women, teeth",
+        "C": "mouses, childs, foots",
+        "D": "mens, womens, teeths"
+      },
+      "answer": "B",
+      "explanation": "Noto'g'ri otlarning 1 tadan ko'pga o'tish qoidasida: man->men, woman->women, tooth->teeth ekanligi belgilangan."
+    },
+    {
+      "number": 30,
+      "difficulty": "medium",
+      "category": "theory",
+      "type": "multiple_choice",
+      "question": "Irregular otlar guruhiga kiruvchi 'Sheep', 'Deer' va 'Species' so'zlarining ko'plik shakli qanday yasaladi?",
+      "options": {
+        "A": "Sheeps, deers, specieses",
+        "B": "Ularning ko'plik shakli yo'q, doim sanalmaydi",
+        "C": "Ular ko'plikda ham, birlikda ham bir xil shaklga ega",
+        "D": "Shoop, door, specie"
+      },
+      "answer": "C",
+      "explanation": "Bu so'zlar hech qanday o'zgarishsiz o'z holaticha ham birlikda, ham ko'plikda kela oladi."
+    },
+    {
+      "number": 31,
+      "difficulty": "medium",
+      "category": "theory",
+      "type": "multiple_choice",
+      "question": "Asbob va kiyim-kechak kabi ikki qismdan iborat narsalar (scissors, trousers) haqidagi qoida qaysi variantda to'g'ri berilgan?",
+      "options": {
+        "A": "Ular mantiqan birligi yo'q bo'lgani uchun doim ko'plikda keladi",
+        "B": "Ularni faqat 'a' artikli bilan ishlatish kerak (a scissors)",
+        "C": "Ular doim birlik fe'l bilan ishlatiladi",
+        "D": "Ular uncountable hisoblanadi"
+      },
+      "answer": "A",
+      "explanation": "Faylga ko'ra 'Always Plural' otlar ikki qismdan iborat va mantiqan birligi yo'q bo'lgani uchun doim ko'plikda keladi."
+    },
+    {
+      "number": 32,
+      "difficulty": "hard",
+      "category": "examples",
+      "type": "multiple_choice",
+      "question": "Doimiy ko'plikdagi otlar (Always Plural) qoidasiga asoslanib, 'Menga ikkita shim kerak' jumlasi qanday to'g'ri tarjima qilinadi?",
+      "options": {
+        "A": "I need two trousers.",
+        "B": "I need two pair of trouser.",
+        "C": "I need two pairs of trousers.",
+        "D": "I need a pairs of trousers."
+      },
+      "answer": "C",
+      "explanation": "Doimiy ko'plikdagi otlarni sanash uchun 'a pair of' ishlatiladi. Ikkita bo'lsa 'two pairs of' bo'ladi."
+    },
+    {
+      "number": 33,
+      "difficulty": "hard",
+      "category": "theory",
+      "type": "multiple_choice",
+      "question": "Collective nouns (Ommaviy otlar) guruhiga kiruvchi 'government' so'zi qanday xususiyatga ega?",
+      "options": {
+        "A": "Ikkala aksentda ham faqat birlik fe'l olinadi",
+        "B": "UK English'da ko'plikdagi fe'l, US English'da birlikdagi fe'l ishlatiladi",
+        "C": "US English'da ko'plikdagi fe'l, UK English'da birlikdagi fe'l ishlatiladi",
+        "D": "Faqat 'police' so'zi bilangina qo'llaniladi"
+      },
+      "answer": "B",
+      "explanation": "Collective Nouns slaydida UK English ko'plik fe'l (The government are), US English birlik fe'l (The government is) qabul qilishi yozilgan."
+    },
+    {
+      "number": 34,
+      "difficulty": "easy",
+      "category": "theory",
+      "type": "multiple_choice",
+      "question": "O'zakka affikslar (qo'shimchalar) qo'shilishi bilan yasaladigan otlar leksik jihatdan qanday nomlanadi?",
+      "options": {
+        "A": "Simple (Sodda) otlar",
+        "B": "Derivative (Yasama) otlar",
+        "C": "Compound (Qo'shma) otlar",
+        "D": "Attributive otlar"
+      },
+      "answer": "B",
+      "explanation": "Otlarning tuzilishi slaydida Derivative otlar o'zakka affiks qo'shilishi bilan yasalishi aytilgan."
+    },
+    {
+      "number": 35,
+      "difficulty": "easy",
+      "category": "examples",
+      "type": "multiple_choice",
+      "question": "Qaysi qatordagi so'zlar bitta o'zakdan iborat, qo'shimchasiz bo'lgan Simple (Sodda) otlarga misol bo'ladi?",
+      "options": {
+        "A": "toothpaste, ice cream",
+        "B": "worker, happiness",
+        "C": "dog, time, peace, water",
+        "D": "mother-in-law, sports car"
+      },
+      "answer": "C",
+      "explanation": "Simple otlarga faylda aynan 'dog, time, peace, water' misol qilib keltirilgan."
+    },
+    {
+      "number": 36,
+      "difficulty": "medium",
+      "category": "theory",
+      "type": "multiple_choice",
+      "question": "Ikkita mustaqil so'zning birlashishidan hosil bo'ladigan Compound (qo'shma) otlar qanday usullarda yozilishi mumkin?",
+      "options": {
+        "A": "Faqat bitta so'z qilib birga",
+        "B": "Faqat chiziqcha bilan",
+        "C": "Birga, chiziqcha bilan yoki alohida ajratib yozilishi mumkin",
+        "D": "Faqat alohida ajratib yoziladi"
+      },
+      "answer": "C",
+      "explanation": "Faylda compound otlar uch xil usulda: birga, chiziqcha bilan va ajratib yozilishi mumkinligi ko'rsatilgan."
+    },
+    {
+      "number": 37,
+      "difficulty": "medium",
+      "category": "theory",
+      "type": "multiple_choice",
+      "question": "'Noun + Noun' birikmasida (Attributive Nouns) birinchi otning asosiy vazifasi qanday o'zgaradi?",
+      "options": {
+        "A": "U obyekt vazifasini bajaradi",
+        "B": "U otlik xususiyatini yo'qotib, sifat (Adjective) vazifasiga aylanadi",
+        "C": "U fe'l (Verb) vazifasini bajaradi",
+        "D": "U ega vazifasiga aylanadi"
+      },
+      "answer": "B",
+      "explanation": "Attributive Nouns slaydida birinchi ot sifatga aylanishi (turi yoki maqsadini bildirish uchun) izohlangan."
+    },
+    {
+      "number": 38,
+      "difficulty": "hard",
+      "category": "examples",
+      "type": "multiple_choice",
+      "question": "Writing qismida so'zlarni tejash va akademik ohang yaratish uchun 'costs of production' birikmasi o'rniga nima deb yozish tavsiya qilinadi?",
+      "options": {
+        "A": "Production cost",
+        "B": "Productions costs",
+        "C": "Production costs",
+        "D": "Cost productions"
+      },
+      "answer": "C",
+      "explanation": "Slaydda 'costs of production' o'rniga attributive noun qoidasidan foydalanib 'production costs' deyish ideal ekanligi keltirilgan."
+    },
+    {
+      "number": 39,
+      "difficulty": "hard",
+      "category": "examples",
+      "type": "multiple_choice",
+      "question": "Subject-Verb Agreement qoidasiga ko'ra 'The overall quality of the programs has improved' gapida nima uchun birlik fe'l ('has') ishlatilgan?",
+      "options": {
+        "A": "Chunki 'programs' so'zi birlikda",
+        "B": "Chunki fe'l uzun so'z birikmasidagi oxirgi otga emas, asosiy ega bo'lgan 'quality' (birlik) otiga moslashgan",
+        "C": "Chunki jumlada doim birlik fe'l keladi",
+        "D": "Chunki 'overall' so'zi birlik ma'nosini beradi"
+      },
+      "answer": "B",
+      "explanation": "Fayldagi izohga ko'ra, fe'l yonidagi eng oxirgi so'zga (programs) chalg'imasdan, asosiy otga (quality) moslashishi kerak."
+    },
+    {
+      "number": 40,
+      "difficulty": "medium",
+      "category": "theory",
+      "type": "multiple_choice",
+      "question": "Vaqt, pul va masofani bildiruvchi otlar (Time/Money/Distance) gapda qanday fe'l shaklini oladi?",
+      "options": {
+        "A": "Ko'plik fe'l",
+        "B": "Birlik fe'l",
+        "C": "Ixtiyoriy fe'l",
+        "D": "Faqat o'tgan zamondagi fe'l"
+      },
+      "answer": "B",
+      "explanation": "Bu tushunchalar yaxlit bir butun hisoblangani sababli doim birlik fe'l (singular verb) qabul qiladi."
+    },
+    {
+      "number": 41,
+      "difficulty": "medium",
+      "category": "theory",
+      "type": "multiple_choice",
+      "question": "Ot va fe'lni moslashtirishda eng ko'p qilinadigan xato qaysi ekanligi qayd etilgan?",
+      "options": {
+        "A": "Fe'lni doim birlikda yozish",
+        "B": "Fe'lni eganing yonidagi eng oxirgi so'zga moslashtirib qo'yish",
+        "C": "Fe'lni hech qachon moslashtirmaslik",
+        "D": "Fe'lni o'tgan zamonda ishlatish"
+      },
+      "answer": "B",
+      "explanation": "Eng ko'p xato - fe'lni asosiy ega qolib, eganing yonidagi eng oxirgi so'zga (chalg'ituvchi qo'shimchaga) moslashtirib qo'yishdir."
+    },
+    {
+      "number": 42,
+      "difficulty": "easy",
+      "category": "theory",
+      "type": "multiple_choice",
+      "question": "Xulosa (The Ultimate Noun Blueprint) dagi Muvaffaqiyat formulasi (Checklist) ning 1-qadami nimadan iborat?",
+      "options": {
+        "A": "Balansni saqlash - fe'lni moslashtirish",
+        "B": "Tuzoqlarni chetlab o'tish - '-s' qo'shmaslik",
+        "C": "Turini aniqlash - so'z sanaladigan (Countable) yoki sanalmaydigan (Uncountable) ekanligini tasdiqlash",
+        "D": "O'zakni topish"
+      },
+      "answer": "C",
+      "explanation": "Muvaffaqiyat formulasining 1-qadami 'Turini aniqlang' deb nomlangan va so'z sanaladigan yoki sanalmaydigan ekanligini tasdiqlashni talab qiladi."
+    },
+    {
+      "number": 43,
+      "difficulty": "easy",
+      "category": "theory",
+      "type": "multiple_choice",
+      "question": "IELTS 'Golden list' sanalmaydigan otlariga hech qachon '-s' yoki 'a/an' qo'shmaslik Muvaffaqiyat formulasining nechanchi bosqichidir?",
+      "options": {
+        "A": "1-bosqich",
+        "B": "2-bosqich (Tuzoqlarni chetlab o'ting)",
+        "C": "3-bosqich",
+        "D": "Bu umuman tavsiya etilmagan"
+      },
+      "answer": "B",
+      "explanation": "Checklist'ning 2-qadami 'Tuzoqlarni chetlab o'ting' deb nomlanadi va IELTS Golden List qoidasini o'z ichiga oladi."
+    },
+    {
+      "number": 44,
+      "difficulty": "medium",
+      "category": "examples",
+      "type": "multiple_choice",
+      "question": "Otlarning leksik tuzilishiga ko'ra 'mother-in-law' so'zi qaysi guruhga kiradi?",
+      "options": {
+        "A": "Simple",
+        "B": "Derivative",
+        "C": "Compound",
+        "D": "Abstract"
+      },
+      "answer": "C",
+      "explanation": "Mother-in-law so'zi mustaqil so'zlarning chiziqcha orqali birlashishidan yasalganligi sababli Compound (qo'shma) ot hisoblanadi."
+    },
+    {
+      "number": 45,
+      "difficulty": "medium",
+      "category": "examples",
+      "type": "multiple_choice",
+      "question": "'The scientists published three articles, but they need more funding and equipment.' gapida Countable (sanaladigan) otlar qaysilar?",
+      "options": {
+        "A": "funding, equipment",
+        "B": "scientists, articles",
+        "C": "need, more",
+        "D": "published, three"
+      },
+      "answer": "B",
+      "explanation": "Fayldagi tahlilga ko'ra 'scientists' va 'articles' sanaladigan, 'funding' va 'equipment' esa sanalmaydigan otlardir."
+    },
+    {
+      "number": 46,
+      "difficulty": "medium",
+      "category": "theory",
+      "type": "multiple_choice",
+      "question": "Nima uchun mavhum (Abstract) otlarga 'knowledges', 'educations', 'freedoms' deb ko'plik qo'shish eng ko'p qilinadigan xato hisoblanadi?",
+      "options": {
+        "A": "Chunki ular faqat sifat bo'lib keladi",
+        "B": "Chunki ular doim o'zak holda yozilishi kerak",
+        "C": "Chunki ular ko'pincha sanalmaydigan otlar bo'lib, ularni mantiqan sanashga urinish xatodir",
+        "D": "Chunki ularga faqat '-ies' qo'shish kerak"
+      },
+      "answer": "C",
+      "explanation": "Abstract otlar slaydida ularni mantiqan sanashga urinish xato ekanligi uqtirilgan, chunki ular ko'pincha uncountable bo'ladi."
+    },
+    {
+      "number": 47,
+      "difficulty": "hard",
+      "category": "theory",
+      "type": "multiple_choice",
+      "question": "IELTS Listening qismida to'g'ri javobni eshitish kamlik qiladi; qanday holat yuz bersa javob xato (incorrect) hisoblanadi?",
+      "options": {
+        "A": "Agar so'z faqat US aksentida yozilsa",
+        "B": "So'z oxiridagi 's' yoki 'es' ni yozishda (imlo) xato qilinsa",
+        "C": "Agar so'z kichik harfda yozilsa (common nounlarda)",
+        "D": "So'zda 'the' artikli tushib qolsa"
+      },
+      "answer": "B",
+      "explanation": "Plural Forms slaydiga ko'ra, Listening qismida javob oxiridagi 's' yoki 'es' harflarini yozishda adashish to'g'ridan-to'g'ri xatoga olib keladi."
+    },
+    {
+      "number": 48,
+      "difficulty": "easy",
+      "category": "examples",
+      "type": "multiple_choice",
+      "question": "'Coffee shop', 'information technology', 'train ticket' kabi so'zlar qaysi grammatik qoidaga mukammal misol bo'la oladi?",
+      "options": {
+        "A": "Irregular nouns",
+        "B": "Always plural nouns",
+        "C": "Noun + Noun birikmalari (Attributive Nouns)",
+        "D": "Subject-Verb agreement"
+      },
+      "answer": "C",
+      "explanation": "Slaydda ushbu so'zlar bir otning boshqa otni sifatlaydigan Noun + Noun (Attributive) holatiga misol qilib ko'rsatilgan."
+    },
+    {
+      "number": 49,
+      "difficulty": "medium",
+      "category": "examples",
+      "type": "multiple_choice",
+      "question": "'The government are making changes' jumlasi qaysi ingliz tili variantiga xos yozish uslubi hisoblanadi?",
+      "options": {
+        "A": "US English",
+        "B": "UK English",
+        "C": "Ikkalasiga ham xos emas",
+        "D": "Faqat so'zlashuv tiliga"
+      },
+      "answer": "B",
+      "explanation": "Ommaviy otlarga (Collective nouns) bag'ishlangan slaydida UK English ko'plik fe'l (are) ishlatishga moyilligi ta'kidlangan."
+    },
+    {
+      "number": 50,
+      "difficulty": "easy",
+      "category": "theory",
+      "type": "multiple_choice",
+      "question": "'The Noun Blueprint' xulosasiga ko'ra, otni (noun) to'g'ri ishlatish nimani ta'minlaydi?",
+      "options": {
+        "A": "Faqat so'z boyligini oshirishni",
+        "B": "Qolgan barcha grammatik elementlar to'g'ri ishlashini",
+        "C": "O'qish tezligini oshirishni",
+        "D": "Matn uzunligini qisqartirishni"
+      },
+      "answer": "B",
+      "explanation": "Xulosada ot ingliz tili arxitekturasining tamal toshi ekanligi va uni to'g'ri ishlatish qolgan barcha grammatik elementlar to'g'ri ishlashini ta'minlashi yozilgan."
+    }
+  ]
+}
