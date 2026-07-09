@@ -83,7 +83,7 @@ function TopicCard({ topic, index }) {
 }
 
 export default function HomePage() {
-  const { user, isAdmin, status, error } = useTelegram()
+  const { user, isAdmin, status, error, retry } = useTelegram()
   const [topics, setTopics] = useState(null)
   const [loadError, setLoadError] = useState(null)
 
@@ -98,14 +98,16 @@ export default function HomePage() {
 
   if (status === 'loading') return <Loader />
   if (status === 'error') {
+    const denied = error?.status === 401
     return (
       <ErrorState
-        title="Kirish rad etildi"
+        title={denied ? 'Kirish rad etildi' : 'Ulanib bo\'lmadi'}
         message={
-          error?.status === 401
+          denied
             ? "Ilovani Telegram bot orqali oching. Brauzerda sinash uchun .env faylda DEV_ALLOW_UNSAFE=1 qiling."
             : error?.message
         }
+        onRetry={denied ? undefined : retry}
       />
     )
   }

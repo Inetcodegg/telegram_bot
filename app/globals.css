@@ -30,8 +30,8 @@
   --radius: 18px;
   --radius-sm: 12px;
 
-  --display: 'Fraunces', 'Iowan Old Style', Georgia, serif;
-  --sans: 'Manrope', -apple-system, 'Segoe UI', sans-serif;
+  --display: var(--font-display), 'Iowan Old Style', Georgia, serif;
+  --sans: var(--font-sans), -apple-system, 'Segoe UI', sans-serif;
 
   --safe-b: env(safe-area-inset-bottom, 0px);
   --tap: cubic-bezier(0.2, 0.9, 0.25, 1);

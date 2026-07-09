@@ -1,6 +1,12 @@
 import Script from 'next/script'
+import { Fraunces, Manrope } from 'next/font/google'
 import './globals.css'
 import { TelegramProvider } from './providers'
+
+// Shriftlar build vaqtida yuklab olinib, o'z domenimizdan beriladi.
+// Runtime'da fonts.googleapis.com'ga so'rov ketmaydi — bloklangan tarmoqda ham ochiladi.
+const display = Fraunces({ subsets: ['latin'], display: 'swap', variable: '--font-display' })
+const sans = Manrope({ subsets: ['latin'], display: 'swap', variable: '--font-sans' })
 
 export const metadata = {
   title: 'Quiz — Telegram Mini App',
@@ -18,18 +24,15 @@ export const viewport = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="uz">
-      <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Manrope:wght@400;500;700;800&display=swap"
-          rel="stylesheet"
-        />
-      </head>
+    <html lang="uz" className={`${display.variable} ${sans.variable}`}>
       <body>
-        {/* Telegram SDK hydration'dan oldin yuklanishi shart */}
-        <Script src="https://telegram.org/js/telegram-web-app.js" strategy="beforeInteractive" />
+        {/*
+          Telegram SDK ATAYIN `beforeInteractive` EMAS: u hydration'ni bloklaydi.
+          telegram.org javob bermasa (bloklangan/sekin tarmoq) sahifa abadiy
+          "Yuklanmoqda…" holatida qotib qolardi. `afterInteractive` bilan sahifa
+          avval jonlanadi, provider esa SDK'ni timeout bilan kutadi.
+        */}
+        <Script src="https://telegram.org/js/telegram-web-app.js" strategy="afterInteractive" />
         <TelegramProvider>
           <div id="app">{children}</div>
         </TelegramProvider>

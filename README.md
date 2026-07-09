@@ -104,13 +104,49 @@ Har bir savolning vaqti shu tartibda aniqlanadi (birinchi topilgani ishlaydi):
 - Admin endpoint'lari `ADMIN_IDS` bo'yicha tekshiriladi (401/403).
 - Mavzu slug'lari `[a-z0-9-_]` bilan cheklangan — path traversal mumkin emas.
 
-## Joylashtirish (deploy)
+## Saqlash (storage)
 
-Ilova `data/` papkasiga **yozadi**, shuning uchun doimiy diskka ega hosting kerak: VPS, Railway, Render, Fly.io yoki Docker volume.
+`lib/store.js` ikki backend'ni avtomatik tanlaydi:
 
-> Vercel'ning serverless muhitida fayl tizimi vaqtinchalik — natijalar saqlanmaydi. Vercel'da ishlatish uchun `lib/store.js` ni tashqi saqlagichga (masalan S3 yoki Postgres) o'tkazish kerak bo'ladi.
+| Muhit | Shart | Saqlash joyi |
+|---|---|---|
+| **Lokal (dev)** | KV env yo'q | `quests/` va `data/` JSON fayllar |
+| **Vercel (prod)** | `KV_REST_API_URL` + `KV_REST_API_TOKEN` bor | Upstash Redis |
+
+Vercel'ning fayl tizimi vaqtinchalik va faqat o'qish uchun, shuning uchun u yerda
+natijalar/foydalanuvchilar/mavzular Redis'da saqlanadi. Birinchi ishga tushishda
+repo'dagi `quests/*.json` mavzulari avtomatik Redis'ga ko'chiriladi (bir marta).
+
+## Vercel'ga joylashtirish
+
+1. **Redis ulash:** Vercel loyihasi → **Storage** → **Marketplace** → *Upstash for
+   Redis* → **Create**. Bu `KV_REST_API_URL` va `KV_REST_API_TOKEN` env'larini
+   avtomatik qo'shadi.
+2. **Env o'zgaruvchilar** (Settings → Environment Variables):
+
+   | O'zgaruvchi | Qiymat |
+   |---|---|
+   | `TELEGRAM_BOT_TOKEN` | @BotFather bergan token (**majburiy**) |
+   | `ADMIN_IDS` | Admin Telegram ID'lar, vergul bilan |
+   | `DEV_ALLOW_UNSAFE` | **`0`** — productionda imzo tekshiruvi yoqilishi shart |
+
+3. **Redeploy** qiling (env o'zgarishi faqat yangi deploy'ga ta'sir qiladi).
+4. Vercel bergan `https://...vercel.app` manzilini botga ulang:
+
+   ```bash
+   node scripts/setup-bot.mjs <BOT_TOKEN> https://<loyiha>.vercel.app
+   ```
+
+> ⚠️ `DEV_ALLOW_UNSAFE=1` bo'lsa Telegram imzosi **umuman tekshirilmaydi** — har kim
+> soxta `user.id` yuborib, istalgan foydalanuvchi (jumladan admin) bo'lib olishi
+> mumkin. Bu faqat lokal test uchun; productionda doim `0` bo'lsin.
+
+### Doimiy diskli muqobil (VPS, Railway, Fly.io)
+
+KV env'lari berilmasa ilova fayl backend'da ishlaydi — bunda doimiy diskli hosting
+kerak. `PORT` env'i avtomatik o'qiladi.
 
 ```bash
 npm run build
-npm start          # 3000-portda
+npm start          # PORT env'idagi portda (standart 3000)
 ```
